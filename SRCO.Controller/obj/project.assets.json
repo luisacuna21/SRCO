@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "SRCO.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SRCO.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SRCO.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SRCO.Model/1.0.0": {
+      "type": "project",
+      "path": "../SRCO.Model/SRCO.Model.csproj",
+      "msbuildProject": "../SRCO.Model/SRCO.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "SRCO.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\acuap\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\acuap\\OneDrive\\Escritorio\\Trabajo\\Proyectos\\Sistema de Registro y Control de Operaciones\\SRCO.Controller\\SRCO.Controller.csproj",
+      "projectName": "SRCO.Controller",
+      "projectPath": "C:\\Users\\acuap\\OneDrive\\Escritorio\\Trabajo\\Proyectos\\Sistema de Registro y Control de Operaciones\\SRCO.Controller\\SRCO.Controller.csproj",
+      "packagesPath": "C:\\Users\\acuap\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\acuap\\OneDrive\\Escritorio\\Trabajo\\Proyectos\\Sistema de Registro y Control de Operaciones\\SRCO.Controller\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\acuap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\acuap\\OneDrive\\Escritorio\\Trabajo\\Proyectos\\Sistema de Registro y Control de Operaciones\\SRCO.Model\\SRCO.Model.csproj": {
+              "projectPath": "C:\\Users\\acuap\\OneDrive\\Escritorio\\Trabajo\\Proyectos\\Sistema de Registro y Control de Operaciones\\SRCO.Model\\SRCO.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

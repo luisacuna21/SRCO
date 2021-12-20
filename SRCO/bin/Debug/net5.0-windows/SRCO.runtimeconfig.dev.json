@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\acuap\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\acuap\\.nuget\\packages"
+    ]
+  }
+}
